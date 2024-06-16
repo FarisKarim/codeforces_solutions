@@ -8,3 +8,5 @@ for _ in range(n):
     nums = list(map(int, input().split()))
     if sum(nums) % 2 == 1:
         res.append("NO")
+    elif len(nums) % 2 == 1:
+        res.append("NO")
